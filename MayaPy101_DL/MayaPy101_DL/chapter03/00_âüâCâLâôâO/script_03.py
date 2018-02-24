@@ -1,0 +1,1 @@
+selection = cmds.ls(sl=True)

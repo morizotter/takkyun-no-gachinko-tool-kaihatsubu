@@ -1,0 +1,10 @@
+#		acrossLayout = QtGui.QHBoxLayout(self)
+#		acrossLayout.addWidget(xy, True)
+#		acrossLayout.addWidget(yz, True)
+#		acrossLayout.addWidget(xz, True)
+#		mainLayout.addRow('Across', acrossLayout)
+
+		self.__across = QtGui.QButtonGroup(self)
+		self.__across.addButton(xy, 0)
+		self.__across.addButton(yz, 1)
+		self.__across.addButton(xz, 2)

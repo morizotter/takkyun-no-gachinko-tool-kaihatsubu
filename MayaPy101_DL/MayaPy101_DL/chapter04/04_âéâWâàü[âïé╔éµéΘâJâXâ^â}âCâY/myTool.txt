@@ -1,0 +1,1 @@
++ MyTool 1 X:\maya\tools\myTool
